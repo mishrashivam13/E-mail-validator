@@ -15,10 +15,11 @@ body{
     /* background-image: url(https://images.pexels.com/photos/3389531/pexels-photo-3389531.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
     /* align-items: center; */
     /* display: flex; */
-    background-color: aqua;
+    /* background-color: aqua; */
+    background-image: url(https://img.freepik.com/premium-photo/male-hand-holding-letter-icon-email-icons-contact-us-by-newsletter-email-protect-your-personal-information-from-spam-mail-customer-service-call-center-contact-us-email-marketing-newsletter_150455-11399.jpg?w=1380);
 }
 .cont{
     border: 5px solid black;
@@ -63,10 +64,16 @@ main{
     flex-direction: column;
     width: 45dvw;
     /* justify-content: center; */
-    /* backdrop-filter: blur(5px); */
+    backdrop-filter: blur(5px);
     border-radius: 15px;
     /* background-image: url(https://images.pexels.com/photos/3389531/pexels-photo-3389531.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    /* background-image: url(https://cdn.shopify.com/s/files/1/0070/7032/articles/business_20email_20ideas_c2872e58-adb8-4c67-98e0-6b9de5448155.png?v=1729112427); */
+    background-position: center;
+    background-size: cover;
+    /* background-color: ; */
+    /* background-image: url(https://www.iaccindia.com/wp-content/uploads/2017/07/email-image-background.jpg); */
 }
 
 .logo img{

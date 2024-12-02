@@ -1,0 +1,71 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 0.1px solid black;
+    text-align: center;
+    row-gap: 5%;
+    display: flex;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/premium-photo/email-marketing-newsletter-conceptcontact-us-by-newsletter-email-protect-your-personal-information-from-spam-mail-conceptscheme-direct-sales-business-list-clients-mailing_150455-19941.jpg?w=1380);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+
+
+
+}
+
+.sign {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 40%;
+    border: 1px solid black;
+    align-items: center;
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    padding: 1em;
+
+
+    /* background-position: center;
+    background-repeat: no-repeat; */
+
+}
+
+form {
+    align-items: center;
+    justify-content: center;
+    /* width: 80%; */
+    flex-direction: column;
+    row-gap: 1em;
+    display: flex;
+
+
+}
+
+form * {
+    text-align: center;
+    border-radius: 25px;
+    
+
+}
+#shiv{
+    padding: 0.5em;
+    margin: 0%;
+    background-color: black;
+    /* backdrop-filter: blur 25px; */
+    border-radius: 25px;
+    font-size: 1em;
+    color: aliceblue;
+}
