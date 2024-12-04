@@ -69,3 +69,33 @@ form * {
     font-size: 1em;
     color: aliceblue;
 }
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 19px 12px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    padding: 0 13px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul >li> a:hover{
+    color: rgb(192, 189, 205);
+}
+.logo img{
+    width: 15px;
+    filter: invert(1);
+}

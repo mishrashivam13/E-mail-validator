@@ -26,6 +26,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-image: url(https://img.freepik.com/premium-photo/male-hand-holding-letter-icon-email-icons-contact-us-by-newsletter-email-protect-your-personal-information-from-spam-mail-customer-service-call-center-contact-us-email-marketing-newsletter_150455-11399.jpg?w=1380); */
    
 
 }
@@ -148,3 +149,5 @@ footer{
         filter: invert(1);
     }
   }
+  
+ 
